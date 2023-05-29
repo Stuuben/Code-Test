@@ -463,8 +463,3 @@ export const gameData = [
   },
 ];
 
-export const gogo = () => {
-  let users = gameData.map((data) => data.game);
-
-  console.log(users.sort());
-};

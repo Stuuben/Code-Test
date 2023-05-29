@@ -20,3 +20,5 @@ export const checkAnagram = (userInput1: string, userInput2: string) => {
 
   return string1 === string2;
 };
+
+// gör till function dry!
