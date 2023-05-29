@@ -1,12 +1,13 @@
+import { RouterProvider } from "react-router";
 import "./App.css";
-import { Anagram } from "./components/Anagram";
 import { AnagramApp } from "./components/AnagramApp";
 import { DashboardApp } from "./components/DashboardApp";
+import { router } from "./Router";
 
 function App() {
   return (
     <>
-      <DashboardApp></DashboardApp>
+      <RouterProvider router={router}></RouterProvider>
     </>
   );
 }

@@ -1,0 +1,15 @@
+ul {
+  list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(193, 218, 239);
+    padding: 2rem;
+    margin: 0;
+    
+}
+div {
+width: 100%;
+
+}

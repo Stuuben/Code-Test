@@ -45,7 +45,7 @@ export const Dashboard = () => {
       {
         label: "Minecraft",
         data: mineCraftData,
-        backgroundColor: "brown",
+        backgroundColor: "lightgreen",
         borderColor: "green",
         pointBorderColor: "green",
         tension: 0.2,
@@ -57,24 +57,13 @@ export const Dashboard = () => {
     plugins: {
       legend: true,
     },
-    scales: {
-      y: {
-        /*    min: 3,
-        max: 6, */
-      },
-    },
   };
   return (
     <>
       <h2>Dashboard</h2>
       <div className="chart-wrapper">
         <h3>User Activity</h3>
-        <div
-          style={{
-            width: "600px",
-            height: "300px",
-          }}
-        >
+        <div>
           <Line data={data} options={options}></Line>
         </div>
       </div>
