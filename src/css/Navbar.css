@@ -4,12 +4,16 @@ ul {
     justify-content: right;
     gap: 30px;
     align-items: center;
-    background-color: rgb(193, 218, 239);
+    background-color: #333333;
     padding: 2rem;
     margin: 0;
+    
     
 }
 div {
 width: 100%;
 
+}
+a, a:visited {
+  color: #FF5733
 }

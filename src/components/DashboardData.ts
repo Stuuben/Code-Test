@@ -462,4 +462,3 @@ export const gameData = [
     activeUsers: 172856016,
   },
 ];
-

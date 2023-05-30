@@ -18,3 +18,7 @@
    ```sh
    npm test
    ```
+5. create a .env file in the root of the project and insert your key.
+   ```sh
+   VITE_REACT_APP_ACCESS_KEY = <YOUR KEY>
+   ```
