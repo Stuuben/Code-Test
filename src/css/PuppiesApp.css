@@ -1,0 +1,39 @@
+.puppy-wrapper {
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 2rem;
+padding: 1rem;
+margin: 1rem;
+width: 90%;
+}
+
+.puppy {
+    
+      border-radius: 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+}
+
+img {
+  max-width: 100%;
+  max-height: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+    
+ @media screen and (max-width: 1050px) {
+  .puppy-wrapper {
+   grid-template-columns: repeat(3, 1fr);
+   }
+ }
+
+    @media screen and (max-width: 780px) {
+      .puppy-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
